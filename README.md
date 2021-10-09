@@ -1,5 +1,19 @@
 # bug-opentelemetry-django-asgi
 
+Presented with this error message when attempting to run Python 3.8.11 // Django 3.2.8 // Channels 3.0.4 // OpenCensus middleware.
+
+> # 500 Internal Server Error
+> 
+> Exception inside application.
+> 
+> _Daphne_
+
+<details><summary>Screenshot</summary>
+  <p>
+    ![image](https://user-images.githubusercontent.com/23239955/136654348-619d3aee-94bb-4a8d-bce9-fb0c3db1c11c.png)
+  </p>
+</details>
+
 ## With the Django channels app enabled
 ```
 python manage.py runserver --settings testproject.with_channels
