@@ -2,6 +2,8 @@
 
 Presented with this error message when attempting to run Python 3.8.11 // Django 3.2.8 // Channels 3.0.4 // OpenCensus middleware.
 
+Created for this issue: https://github.com/census-instrumentation/opencensus-python/issues/1082
+
 > # 500 Internal Server Error
 > 
 > Exception inside application.
